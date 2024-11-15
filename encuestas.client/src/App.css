@@ -1,0 +1,38 @@
+﻿
+.modal-content {
+    border-radius:30px;
+    border: none; /* Elimina el borde del modal */
+    box-shadow: none; /*Elimina la sombra alrededor del modal */
+    /*background-color: transparent;  /*Si quieres un fondo transparente, opcional */
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.modal-centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;  /*Asegura que ocupe 90% la altura de la pantalla*/ 
+}
+
+.texto-grande-negrita {
+    font-size: 24px; /* Tamaño del texto */
+    font-weight: bold; /* Negrita */
+}
+
+.navStyles {
+    text-align: left;
+    margin-left: 2rem;
+    font-size: 20px;
+}
+
+/* Imagen en movimiento como Fondo */
+.Fondo {
+    background-image: url('https://cdn.pixabay.com/animation/2023/03/01/02/30/02-30-02-751_512.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh; /* Asegura que al menos ocupe toda la pantalla al iniciar */
+    width: 100%;
+    padding: 20px; /* Añadir padding de 10px */
+}
+
