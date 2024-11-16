@@ -22,7 +22,3 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-
-# Configuración sensible
-appsettings.json
-appsettings.*.json

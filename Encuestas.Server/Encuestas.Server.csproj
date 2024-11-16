@@ -7,6 +7,7 @@
     <SpaRoot>..\encuestas.client</SpaRoot>
     <SpaProxyLaunchCommand>npm run dev</SpaProxyLaunchCommand>
     <SpaProxyServerUrl>https://localhost:5173</SpaProxyServerUrl>
+    <UserSecretsId>c82d8c60-8570-47b1-82a9-6020a0c3d762</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
