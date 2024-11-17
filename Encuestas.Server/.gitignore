@@ -1,0 +1,3 @@
+﻿# Configuración sensible
+appsettings.json
+appsettings.*.json
