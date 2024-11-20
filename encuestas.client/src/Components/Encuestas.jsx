@@ -14,7 +14,7 @@ function Encuestas() {
 
     //const { login, isAuthenticated } = useContext(AuthContext); // Asegúrate de usar login() para establecer autenticación
     const navigate = useNavigate();
-    // 15 y 16 son para traerme el nombre del vendedor
+    // Son para traerme el nombre del vendedor
     const location = useLocation();
     const vendedor = location.state?.vendedor;
     const tienda = location.state?.user;
